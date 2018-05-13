@@ -150,7 +150,12 @@ header{
     height: 20px;
     background-color: #cb80e9;
     border: #666666 dotted 8px;
-    
+    -webkit-animation-name: indexspacer; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 8s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: indexspacer;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
 }
 
 #indexspacer2{
@@ -162,6 +167,12 @@ header{
     height: 20px;
     background-color: #cb80e9;
     border: #666666 dotted 8px;
+    -webkit-animation-name: indexspacer2; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 8s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: indexspacer2;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
     
 }
 /* Body Css  for Melanie*/
@@ -196,6 +207,12 @@ header{
     height: 20px;
     background-color: #eb3499;
     border: #666666 dotted 8px;
+    -webkit-animation-name: melspacer; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 8s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: melspacer;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
     
 }
 
@@ -263,6 +280,12 @@ header{
     height: 20px;
     background-color: #3ad3d8;
     border: #666666 dotted 8px;
+    -webkit-animation-name: leahspacer; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 8s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: leahspacer;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
     
 }
 
@@ -342,4 +365,83 @@ header{
     font-size: 16px;
   }
 
-/* media query */
+/* hover features */
+
+#link1:hover{
+    font-size: 20px;
+    background-color: #cb80e9;
+    color: #ffffff;
+    font-family: 'Architects Daughter', cursive;
+}
+
+#link2:hover{
+    font-size: 20px;
+    background-color: #eb3499;
+    color: #ffffff;
+    font-family: 'Architects Daughter', cursive;
+}
+
+#link3:hover{
+    font-size: 20px;
+    background-color: #3ad3d8;
+    color: #ffffff;
+    font-family: 'Architects Daughter', cursive;
+}
+
+/* animations */
+
+/* indexspacer */
+
+@-webkit-keyframes indexspacer {
+    0%   {background-color: #cb80e9;}
+    50%  {background-color: #eb3499;}
+    100%  {background-color:#3ad3d8;}
+}
+
+@keyframes indexspacer {
+    0%   {background-color: #cb80e9;}
+    50%  {background-color: #eb3499;}
+    100%  {background-color:#3ad3d8;}
+}
+
+/* indexspacer2 */
+
+@-webkit-keyframes indexspacer2 {
+    0%   {background-color: #cb80e9;}
+    50%  {background-color: #eb3499;}
+    100%  {background-color:#3ad3d8;}
+}
+
+@keyframes indexspacer2 {
+    0%   {background-color: #cb80e9;}
+    50%  {background-color: #eb3499;}
+    100%  {background-color:#3ad3d8;}
+}
+
+/* melspacer */
+
+@-webkit-keyframes melspacer {
+    0%   {background-color:#eb3499;}
+    50%  {background-color: #3ad3d8;}
+    100%  {background-color:#cb80e9;}
+}
+
+@keyframes  melspacer {
+    0%   {background-color:#eb3499;}
+    50%  {background-color: #3ad3d8;}
+    100%  {background-color:#cb80e9;}
+}
+
+/*leahsapcer */
+
+@-webkit-keyframes leahspacer {
+    0%   {background-color: #3ad3d8;}
+    50%  {background-color: #cb80e9;}
+    100%  {background-color:#eb3499;}
+}
+
+@keyframes leahspacer {
+    0%   {background-color: #3ad3d8;}
+    50%  {background-color: #cb80e9;}
+    100%  {background-color:#eb3499;}
+}
