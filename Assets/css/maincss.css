@@ -24,6 +24,16 @@
     font-family: 'Architects Daughter', cursive;
 }
 
+.spacerborder{
+    border: #666666 dotted 8px;
+    height: 35px;
+    width: 82%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 55px;
+}
+
 /* Website Header */
 
 header{
@@ -32,7 +42,7 @@ header{
     background-color: #ffffff;
     margin-bottom: 20px;
     overflow: hidden;
-    border-bottom: #666666 solid 2px;
+    border-bottom: #666666 solid 6px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
@@ -46,6 +56,7 @@ header{
     padding: 26px;
     font-size: 30px;
     font-family: 'Architects Daughter', cursive;
+    text-align: center;
 }
 
 .name2{
@@ -57,6 +68,7 @@ header{
     padding: 26px;
     font-size: 30px;
     font-family: 'Architects Daughter', cursive;
+    text-align: center;
 }
 
 .name3{
@@ -68,31 +80,36 @@ header{
     padding: 26px;
     font-size: 30px;
     font-family: 'Architects Daughter', cursive;
+    text-align: center;
 }
 
 #block1{
+    height: 97px;
+    width: 20px;
     float: left;
     background-color: #cb80e9;
 }
 
 #block2{
-    float: left;
-    background-color: #eb3499
+    height: 97px;
+    width: 20px;
+    float: right;
+    background-color: #cb80e9;
 }
 
-#block2{
-    float: left;
-    background-color: #3ad3d8;
-}
 /* Body Css  for index*/
+
+.secondborder{
+    border: #666666 solid 20px;
+    margin-top: 50px;
+    margin-bottom: 125px;
+}
 
 #content1{
     background-color: #ffffff;
-    border: solid 7px  #cb80e9;
+    border: solid 8px  #cb80e9;
     clear: both;
     overflow: auto;
-    margin-top: 50px;
-    margin-bottom: 125px;
     padding: 20px;
     padding-bottom: 50px;
 }
@@ -142,14 +159,10 @@ header{
 }
 
 #indexspacer{
-    width: 80%;
-    margin-top: 10px;
-    margin-bottom: 55px;
     margin-left: auto;
     margin-right: auto;
     height: 20px;
     background-color: #cb80e9;
-    border: #666666 dotted 8px;
     -webkit-animation-name: indexspacer; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 8s; /* Safari 4.0 - 8.0 */
     -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
@@ -158,15 +171,12 @@ header{
     animation-iteration-count: infinite;
 }
 
+
 #indexspacer2{
-    width: 80%;
-    margin-top: 30px;
-    margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
     height: 20px;
     background-color: #cb80e9;
-    border: #666666 dotted 8px;
     -webkit-animation-name: indexspacer2; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 8s; /* Safari 4.0 - 8.0 */
     -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
@@ -179,11 +189,9 @@ header{
 
 #content2{
     background-color: #ffffff;
-    border: solid 7px #eb3499;
+    border: solid 8px #eb3499;
     clear: both;
     overflow: auto;
-    margin-top: 50px;
-    margin-bottom: 125px;
     padding: 20px;
     padding-bottom: 50px;
 }
@@ -199,14 +207,10 @@ header{
 }
 
 #melspacer{
-    width: 80%;
-    margin-top: 55px;
-    margin-bottom: 55px;
     margin-left: auto;
     margin-right: auto;
     height: 20px;
     background-color: #eb3499;
-    border: #666666 dotted 8px;
     -webkit-animation-name: melspacer; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 8s; /* Safari 4.0 - 8.0 */
     -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
@@ -252,11 +256,9 @@ header{
 
 #content3{
     background-color: #ffffff;
-    border: solid 7px #3ad3d8;
+    border: solid 8px #3ad3d8;
     clear: both;
     overflow: auto;
-    margin-top: 50px;
-    margin-bottom: 125px;
     padding: 20px;
     padding-bottom: 50px;
 }
@@ -272,14 +274,10 @@ header{
 }
 
 #leahspacer{
-    width: 80%;
-    margin-top: 55px;
-    margin-bottom: 55px;
     margin-left: auto;
     margin-right: auto;
     height: 20px;
     background-color: #3ad3d8;
-    border: #666666 dotted 8px;
     -webkit-animation-name: leahspacer; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 8s; /* Safari 4.0 - 8.0 */
     -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
