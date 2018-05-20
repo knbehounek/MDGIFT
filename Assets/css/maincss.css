@@ -30,7 +30,7 @@
     width: 82%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
+    margin-top: 50px;
     margin-bottom: 55px;
 }
 
@@ -187,6 +187,20 @@ header{
 }
 /* Body Css  for Melanie*/
 
+#melblock1{
+    height: 97px;
+    width: 20px;
+    float: left;
+    background-color: #eb3499;
+}
+
+#melblock2{
+    height: 97px;
+    width: 20px;
+    float: right;
+    background-color: #eb3499;
+}
+
 #content2{
     background-color: #ffffff;
     border: solid 8px #eb3499;
@@ -220,6 +234,11 @@ header{
     
 }
 
+#melvid{
+    margin-top: 55px;
+    border: solid 4px #eb3499;
+}
+
 #melvidhead{
     color: #eb3499;
     margin-top: 40px;
@@ -227,17 +246,9 @@ header{
     font-family: 'Architects Daughter', cursive;
 }
 
-#melvid{
-    margin-top: 35px;
-    width: auto;
-    height: auto;
-    margin-right: auto;
-    margin-left: auto;
-    border: #eb3499 solid 5px;
-}
-
 
 #melvidpara{
+    margin: auto;
     color: #eb3499;
     margin-top: 20px;
     text-align: center;
@@ -253,6 +264,20 @@ header{
 }
 
 /* Body Css  for Leah*/
+
+#leahblock1{
+    height: 97px;
+    width: 20px;
+    float: left;
+    background-color: #3ad3d8;
+}
+
+#leahblock2{
+    height: 97px;
+    width: 20px;
+    float: right;
+    background-color: #3ad3d8;
+}
 
 #content3{
     background-color: #ffffff;
@@ -287,6 +312,11 @@ header{
     
 }
 
+#leahvid{
+    margin-top: 55px;
+    border: solid 4px #3ad3d8;
+}
+
 #leahvidhead{
     color:  #3ad3d8;
     margin-top: 40px;
@@ -301,14 +331,6 @@ header{
     font-family: 'Architects Daughter', cursive;
 }
 
-#leahvid{
-    margin-top: 35px;
-    margin-left: auto;
-    margin-right: auto;
-    width:  auto;
-    height: auto;
-    border: #3ad3d8 solid 5px;
-}
 
 #leahslides{
     margin-top: 25px;
